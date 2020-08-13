@@ -21,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "author": "HieuDang<dangtrunghieu2304@gmail.com>,	
+  },	
   "eslintConfig": {
     "extends": "react-app"
   },
