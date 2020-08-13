@@ -2,6 +2,7 @@
   "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/hieu2304/react-quiz-app",
   "dependencies": {
     "@mdi/font": "^5.5.55",
     "@testing-library/jest-dom": "^4.2.4",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy":gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
